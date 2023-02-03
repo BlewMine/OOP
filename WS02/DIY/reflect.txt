@@ -1,0 +1,24 @@
+
+/*
+*****************************************************************************
+                          Workshop - #1 (lab)
+Full Name  : Julian Lalicon
+Student ID#: 106036213
+Email      : jlalicon1@myseneca.ca
+Section    : NRA
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+
+A C++ program's memory is split into two categories: static memory and dynamic memory. 
+The operating system allots static memory at startup, which contains data and programme instructions. 
+The programme uses the new operator to handle dynamic memory, which is received from the operating system during execution. 
+Dynamic memory's lifespan expires when the pointer that holds its address leaves the application's view, at which point the application must actively deallocate the memory by using the delete operator. 
+An array of n elements can have contiguous memory allocated for it dynamically using the keyword "new" and [n], which also yields the address of the array's first element.

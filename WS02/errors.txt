@@ -1,0 +1,4 @@
+Customer.cpp: In function ‘void sdds::addCustomer(sdds::CustomersRecord&, const sdds::Customers&)’:
+Customer.cpp:57:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+             for (unsigned int i = 0; i < t_rec.noOfRecords; i++) {
+                                                ^
